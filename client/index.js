@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import LoginForm from './components/auth/LoginForm'
 
 const Root = () => {
   return (
-    <div>Hello React!</div>
+    <div>
+      <LoginForm />
+    </div>
   )
 };
 
